@@ -6,6 +6,8 @@ The libgpiod Python bindings are not very straightforward to use and they lack p
 
 I've created this simple library to provide an easy-to-use interface to those libs.
 
+This library also makes it easier to set up and use a GPIO by its line-name instead of gpiochip lines/offsets.
+
 ## Examples
 
 ### GPIO write
