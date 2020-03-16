@@ -25,3 +25,7 @@ class GPIO(object):
         valuesList = []
         valuesList.append(level)
         self.pin.set_values(valuesList)
+
+    def read(self):
+        vals = self.pin.get_values()
+        return int(vals)
