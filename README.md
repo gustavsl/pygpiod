@@ -59,3 +59,8 @@ print(myGpio.read())
 
 time.sleep(1)
 ```
+
+## TODO
+
+* GPIO toggle
+* GPIO set pull-up/pull-down
