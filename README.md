@@ -20,7 +20,7 @@ myGpio = GPIO()
 
 # Get the GPIO by its gpio-line-name on the device tree!
 # Setting up GPIO on SODIMM 138 on a Toradex Colibri module
-myGpio.setup("SODIMM 138", GPIO.OUT)
+myGpio.setup("SODIMM_138", GPIO.OUT)
 
 # Example: Setting up GPIO on GPIO22 on a Raspberry Pi 3
 # myGpio.setup("GPIO22", GPIO.OUT)
@@ -42,7 +42,7 @@ myGpio = GPIO()
 
 # Get the GPIO by its gpio-line-name on the device tree!
 # Setting up GPIO on SODIMM 138 on a Toradex Colibri module
-myGpio.setup("SODIMM 138", GPIO.OUT)
+myGpio.setup("SODIMM_138", GPIO.OUT)
 
 # Example: Setting up GPIO on GPIO22 on a Raspberry Pi 3
 # myGpio.setup("GPIO22", GPIO.OUT)
