@@ -26,3 +26,24 @@ time.sleep(1)
 
 myGpio.write(GPIO.LOW)
 ```
+
+### GPIO write & read
+
+```python
+from gpio import GPIO
+import time
+
+myGpio = GPIO()
+
+myGpio.setup("SODIMM 138", GPIO.OUT)
+
+myGpio.write(GPIO.HIGH)
+print(myGpio.read())
+
+time.sleep(1)
+
+myGpio.write(GPIO.LOW)
+print(myGpio.read())
+
+time.sleep(1)
+```
