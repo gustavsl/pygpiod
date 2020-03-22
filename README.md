@@ -18,7 +18,8 @@ import time
 
 myGpio = GPIO()
 
-# Setting up GPIO on SODIMM 138 on a Toradex Colibri iMX7D
+# Get the GPIO by its gpio-line-name on the device tree!
+# Setting up GPIO on SODIMM 138 on a Toradex Colibri module
 myGpio.setup("SODIMM 138", GPIO.OUT)
 
 # Example: Setting up GPIO on GPIO22 on a Raspberry Pi 3
@@ -39,7 +40,13 @@ import time
 
 myGpio = GPIO()
 
+# Get the GPIO by its gpio-line-name on the device tree!
+# Setting up GPIO on SODIMM 138 on a Toradex Colibri module
 myGpio.setup("SODIMM 138", GPIO.OUT)
+
+# Example: Setting up GPIO on GPIO22 on a Raspberry Pi 3
+# myGpio.setup("GPIO22", GPIO.OUT)
+
 
 myGpio.write(GPIO.HIGH)
 print(myGpio.read())
