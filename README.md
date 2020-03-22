@@ -2,7 +2,7 @@
 
 ## A simple Python wrapper for the libgpiod Python bindings
 
-The libgpiod Python bindings are not very straightforward to use and they lack proper documentation.
+The libgpiod Python bindings are not very straightforward to use and they lack proper documentation besides the examples.
 
 I've created this simple library to provide an easy-to-use interface to those libs.
 
