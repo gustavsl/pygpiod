@@ -15,7 +15,7 @@ This library also makes it easier to set up and use a GPIO by its line-name inst
 On Debian/Ubuntu:
 
 ```
-sudo apt install libgpiod python3-libgpiod
+sudo apt install libgpiod2 python3-libgpiod
 ```
 
 ## Examples
