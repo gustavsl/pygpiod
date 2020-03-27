@@ -8,6 +8,16 @@ I've created this simple library to provide an easy-to-use interface to those li
 
 This library also makes it easier to set up and use a GPIO by its line-name instead of gpiochip lines/offsets.
 
+## Requirements
+
+`libgpiod` and its Python bindings.
+
+On Debian/Ubuntu:
+
+```
+sudo apt install libgpiod python3-libgpiod
+```
+
 ## Examples
 
 ### GPIO write
